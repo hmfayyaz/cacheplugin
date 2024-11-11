@@ -1,0 +1,108 @@
+#loader {
+    display: none;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+input#primary{
+    margin-left: 6rem;
+}
+input#spouseDate1{
+    margin-left: 6rem;
+}
+.birthDate {
+    border: 1px solid #908673;
+    padding: 2rem;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#response {
+    margin-top: 20px;
+}
+
+/* Style for form */
+#myForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style for form elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#spouseInfo, #childInfo {
+    margin-top: 20px;
+}
+
+#addSpouse, #addChild {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#addSpouse:hover, #addChild:hover {
+    background-color: #45a049;
+}
+.panel {
+    margin-top: 60px;
+  }
+  
+  .fieldLabel {
+    padding-top: 5px;
+  }
+  
+  .fieldRow {
+    margin-bottom: 10px;
+  }
+  
+  .heightUnit {
+    margin-left: -20px;
+  }
+  
+  .units {
+    margin-left: -15px;
+  }
+  
+  thead tr th {
+    text-align: center;
+  }
+  
+  tbody tr td {
+    text-align: center;
+  }
+  
+  input[type='button'] {
+    margin-top: 10px;
+    margin-bottom: -15px;
+  }
+  
+  #nameError {
+    color: red;
+  }
+  /*#nameContainer {
+    height: 34px;
+  }*/
+  
+  #resetFormBtn {
+    margin-left: 5px;
+  }
